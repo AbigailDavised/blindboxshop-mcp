@@ -1,0 +1,17 @@
+{
+  "name": "blindboxshop-mcp",
+  "version": "1.0.0",
+  "description": "Look up blind box gram weights, calculate 1:144 chase odds & verify Labubu batch authenticity.",
+  "homepage": "https://blindboxshop.com",
+  "mcpName": "com.blindboxshop/mcp",
+  "type": "module",
+  "license": "MIT",
+  "keywords": [
+    "mcp",
+    "mcp-server",
+    "blindbox",
+    "labubu",
+    "hirono",
+    "collectibles"
+  ]
+}

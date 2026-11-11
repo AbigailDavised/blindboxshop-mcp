@@ -1,0 +1,27 @@
+{
+  "$schema": "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
+  "name": "com.blindboxshop/mcp",
+  "title": "BlindBoxShop — Blind Box Weight Database, Chase Odds & Auth Guide",
+  "description": "Look up blind box gram weights, calculate 1:144 chase odds & verify Labubu batch authenticity.",
+  "version": "1.0.0",
+  "websiteUrl": "https://blindboxshop.com",
+  "repository": {
+    "url": "https://github.com/AbigailDavised/blindboxshop-mcp",
+    "source": "github"
+  },
+  "icons": [
+    {
+      "src": "https://blindboxshop.com/icon.svg",
+      "mimeType": "image/svg+xml",
+      "sizes": [
+        "any"
+      ]
+    }
+  ],
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://blindboxshop.com/api/mcp"
+    }
+  ]
+}

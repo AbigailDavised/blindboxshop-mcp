@@ -1,0 +1,8 @@
+{
+  "mcpServers": {
+    "blindboxshop": {
+      "type": "http",
+      "url": "https://blindboxshop.com/api/mcp"
+    }
+  }
+}
