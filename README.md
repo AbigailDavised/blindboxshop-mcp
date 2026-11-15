@@ -1,4 +1,4 @@
-# BlindBoxShop — Blind Box Weight Database, Chase Odds & Auth Guide (`com.blindboxshop/mcp`)
+[![MCPRush Verified](https://mcprush.com/badge/blindboxshop-blind-box-weight-database-chase-mcp/card.svg)](https://mcprush.com/paperlesson/blindboxshop-blind-box-weight-database-chase-mcp)
 
 [![Official MCP Registry](https://img.shields.io/badge/MCP_Registry-com.blindboxshop%2Fmcp-emerald)](https://registry.modelcontextprotocol.io/v0.1/servers/com.blindboxshop%2Fmcp/versions/latest)
 [![Website](https://img.shields.io/badge/Website-blindboxshop.com-blue)](https://blindboxshop.com)
