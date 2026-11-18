@@ -1,7 +1,8 @@
 {
+  "$schema": "https://agent-plugins.org/schemas/1.0.0/plugin.schema.json",
   "name": "blindboxshop",
-  "version": "1.0.0",
-  "description": "Look up blind box gram weights, calculate 1:144 chase odds & verify Labubu batch authenticity.",
+  "version": "1.0.1",
+  "description": "Official stateless MCP server for BlindBoxShop.com — designer toy blind box gram weight clues, Labubu authenticity verification, and hypergeometric chase odds calculator.",
   "homepage": "https://blindboxshop.com",
   "repository": "https://github.com/AbigailDavised/blindboxshop-mcp",
   "license": "MIT",
@@ -12,12 +13,20 @@
   },
   "keywords": [
     "blind-box",
-    "pop-mart",
     "labubu",
-    "hirono",
-    "skullpanda",
+    "pop-mart",
+    "collectibles",
     "chase-odds",
-    "weight-database",
+    "hypergeometric",
     "mcp"
-  ]
+  ],
+  "extensions": {
+    "com.nousresearch.hermes": {
+      "servers": {
+        "blindboxshop": {
+          "trust": "untrusted"
+        }
+      }
+    }
+  }
 }
